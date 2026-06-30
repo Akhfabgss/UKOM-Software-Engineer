@@ -1,0 +1,96 @@
+1. Apa perbedaan sistem informasi dan software?
+Sistem informasi adalah suatu sistem yang terdiri dari manusia, software, hardware, data, dan prosedur kerja yang saling berhubungan untuk mengolah data menjadi informasi yang berguna bagi pengguna atau organisasi.
+
+Sedangkan software adalah program atau aplikasi yang dibuat untuk menjalankan tugas tertentu pada komputer atau perangkat lainnya.
+
+Jadi, software merupakan salah satu bagian dari sistem informasi. Sistem informasi memiliki cakupan yang lebih luas karena tidak hanya mencakup aplikasi, tetapi juga pengguna, proses bisnis, dan perangkat pendukung lainnya.
+
+Contoh:
+Aplikasi kasir adalah software.
+Sistem penjualan di sebuah minimarket yang melibatkan aplikasi kasir, komputer, kasir, database, dan prosedur kerja merupakan sistem informasi.
+
+-----------------------------------------------------------------------
+
+2. Apa perbedaan database dan Database Management System (DBMS)?
+Database adalah kumpulan data yang disimpan secara terstruktur sehingga mudah dicari, diubah, dan dikelola.
+
+Sedangkan Database Management System (DBMS) adalah software yang digunakan untuk membuat, mengelola, mengakses, dan memanipulasi database.
+
+Jadi, database adalah tempat penyimpanan datanya, sedangkan DBMS adalah aplikasi yang mengelola database tersebut.
+
+Contoh:
+Database berisi data pelanggan, produk, dan transaksi.
+MySQL, PostgreSQL, Oracle Database, dan Microsoft SQL Server adalah contoh DBMS.
+
+-----------------------------------------------------------------------
+
+3. Sebutkan diagram UML yang Anda ketahui dan jelaskan masing-masing kegunaannya!
+Beberapa diagram UML yang sering digunakan antara lain:
+
+a. Use Case Diagram
+Digunakan untuk menggambarkan hubungan antara pengguna (aktor) dengan fitur-fitur yang ada pada sistem. Diagram ini membantu mengetahui apa saja fungsi yang dapat dilakukan oleh setiap pengguna.
+
+b. Activity Diagram
+Digunakan untuk menggambarkan alur proses atau workflow dalam sistem, mulai dari proses awal hingga selesai.
+
+c. Sequence Diagram
+Digunakan untuk menunjukkan urutan interaksi atau komunikasi antar objek dalam sistem berdasarkan waktu. Diagram ini membantu memahami bagaimana proses berjalan dari awal hingga akhir.
+
+d. Class Diagram
+Digunakan untuk menggambarkan struktur kelas dalam sistem, seperti atribut, method, dan hubungan antar kelas. Diagram ini biasanya digunakan pada tahap perancangan aplikasi berbasis OOP.
+
+e. State Diagram
+Digunakan untuk menggambarkan perubahan status suatu objek selama proses berlangsung.
+
+f. Deployment Diagram
+Digunakan untuk menggambarkan bagaimana aplikasi ditempatkan pada perangkat keras atau server saat proses deployment.
+
+-----------------------------------------------------------------------
+
+4. Sebutkan tahapan metodologi Scrum dan kapan kita menggunakan metodologi tersebut!
+Scrum adalah salah satu metode pengembangan software yang termasuk dalam Agile. Scrum digunakan ketika kebutuhan sistem sering berubah atau proyek memerlukan pengembangan secara bertahap.
+
+Tahapan Scrum meliputi:
+
+Product Backlog
+Berisi daftar seluruh kebutuhan atau fitur yang akan dibuat pada aplikasi.
+
+Sprint Planning
+Tim memilih pekerjaan dari Product Backlog yang akan dikerjakan dalam satu Sprint.
+
+Sprint
+Tahap pengerjaan fitur dalam waktu tertentu, biasanya berlangsung selama 1–4 minggu.
+
+Daily Scrum
+Pertemuan singkat setiap hari untuk membahas progres pekerjaan, kendala, dan rencana selanjutnya.
+
+Sprint Review
+Tim mendemonstrasikan hasil pekerjaan kepada stakeholder untuk mendapatkan masukan.
+
+Sprint Retrospective
+Tim melakukan evaluasi terhadap Sprint yang telah selesai agar proses pengembangan berikutnya menjadi lebih baik.
+
+Kapan Scrum digunakan?
+Scrum digunakan ketika proyek memiliki kebutuhan yang dapat berubah sewaktu-waktu, melibatkan kerja tim, membutuhkan pengembangan secara bertahap, dan memerlukan evaluasi secara berkala agar hasilnya sesuai dengan kebutuhan pengguna.
+
+-----------------------------------------------------------------------
+
+5. Pengujian software ada yang menggunakan Black Box Testing dan White Box Testing. Apa yang Anda ketahui tentang kedua pengujian tersebut?
+
+Black Box Testing
+Black Box Testing adalah metode pengujian yang berfokus pada fungsi aplikasi tanpa melihat kode program yang ada di dalamnya. Pengujian dilakukan untuk memastikan setiap fitur berjalan sesuai dengan kebutuhan.
+
+Contoh:
+Menguji apakah tombol login berfungsi.
+Menguji apakah data berhasil disimpan.
+Menguji apakah pesan error muncul ketika password salah.
+
+White Box Testing
+White Box Testing adalah metode pengujian yang dilakukan dengan melihat struktur atau kode program secara langsung. Pengujian ini bertujuan untuk memastikan logika program, percabangan, perulangan, dan alur kode berjalan dengan benar.
+
+Contoh:
+Menguji setiap kondisi if-else.
+Menguji fungsi atau method pada program.
+Memastikan semua jalur program telah dieksekusi.
+
+-----------------------------------------------------------------------
