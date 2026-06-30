@@ -9,8 +9,6 @@ import {
   MapPin,
   UserSearch,
 } from "lucide-react";
-import { exportExcel } from "@/app/utils/exportExcel";
-import { exportPdf } from "@/app/utils/exportPdf";
 
 export default function Home() {
   const [nip, setNip] = useState("");
@@ -151,14 +149,12 @@ export default function Home() {
             <div className="border-t mt-10 pt-8 flex flex-col sm:flex-row justify-end gap-4">
 
               <button
-              onClick={()=>exportPdf(employee)}
-              className="border-2 border-blue-700 text-blue-700 rounded-xl px-8 py-3 font-semibold">
+                className="border-2 border-blue-700 text-blue-700 rounded-xl px-8 py-3 font-semibold">
                 Cetak PDF
               </button>
 
               <button
-              onClick={()=>exportExcel(employee)}
-              className="bg-blue-700 text-white rounded-xl px-8 py-3 font-semibold">
+                className="bg-blue-700 text-white rounded-xl px-8 py-3 font-semibold">
                 Cetak Excel
               </button>
 
